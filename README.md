@@ -1,2 +1,6 @@
 # Meteorite-Landings
-Analysis of real NASA data about meteorite landings on Earth, stretching from the 9th Century to 2013.
+Tools and Languages: Power BI, SQL
+
+Description and Intent: This project analyses real NASA data about meteorite landings on Earth, stretching from the 9th Century to 2013. SQL was used for preliminary inspection of the data to get an idea of what it contained and how much clean up might be required to use it. Numerous gaps in the data were identified, particularly with much older records; some erroneous values were replaced, but I decided to focus on the best quality data from the final 30 years of records. After importing the data into Power BI, I used Power Query to cut away years prior to 1973, as well as some other records that lacked sufficient information. 
+
+Insights and Reporting: The data enabled a nice overview of known meteorite landings in the 30-year period, with focuses on total numbers, classes and masses alongside a world map displaying the meteorites that reflected the user's selection criteria. The significant year-to-year variation of meteorite numbers was interesting to see, but further research beyond the dataset would be required to determine if this was because of a greater number arriving from space, a greater effort to look for and catalogue them, or some other reason.
