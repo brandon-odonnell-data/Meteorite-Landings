@@ -1,5 +1,5 @@
 # Meteorite-Landings
-Tools and Languages: Power BI, SQL
+Tools and Languages: Power BI, Power Query, SQL, SQL Server
 
 Description and Intent: This project analyses real NASA data about meteorite landings on Earth, stretching from the 9th Century to 2013. SQL was used for preliminary inspection of the data to get an idea of what it contained and how much clean up might be required to use it. Numerous gaps in the data were identified, particularly with much older records; some erroneous values were replaced, but I decided to focus on the best quality data from the final 30 years of records. After importing the data into Power BI, I used Power Query to cut away years prior to 1973, as well as some other records that lacked sufficient information. 
 
